@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\User;
+use App\Models\Category;
 
 class UsersTableSeeder extends Seeder
 {
@@ -19,6 +20,10 @@ class UsersTableSeeder extends Seeder
             'email'    => 'vcachi91@gmail.com',
             'password' => bcrypt('password'),
             'is_admin' => true
+        ]);
+
+        Category::create([
+            'name'     => 'Default'
         ]);
     }
 }
