@@ -8,7 +8,6 @@ Languages: PHP, JAVASCRIPT, CSS.
 DataBase: MySQL
 
 # Requirements
-- Laravel 7.0
 - PHP >= 7.2.5
 - OpenSSL PHP Extension
 - PDO PHP Extension
