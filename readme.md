@@ -18,6 +18,7 @@ DataBase: MySQL
 - Ctype PHP Extension
 - JSON PHP Extension
 - BCMath PHP Extension
+- Composer
 
 # Install
 1. git clone https://github.com/alecito2008/laravelblog.git
