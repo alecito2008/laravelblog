@@ -26,7 +26,7 @@ DataBase: MySQL
 4. php artisan migrate
 5. php db:seed
 6. for use API-REST add this code in cronjob:  "cd web/laravelblog/public_html/ && php artisan schedule:run >> /dev/null 2>&1
-" or testing with php artisan schedule:run
+" or testing with "php artisan schedule:run"
 
 # Working
 1. Tested: XAMPP/Windows
