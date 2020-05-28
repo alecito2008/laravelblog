@@ -24,7 +24,9 @@ DataBase: MySQL
 2. composer install
 3. php artisan key:generate
 4. php artisan migrate
-5. for use API-REST add this code in cronjob:  * * * * * php /artisan schedule:run >> /dev/null 2>&1 or testing with php artisan schedule:run
+5. php db:seed
+6. for use API-REST add this code in cronjob:  "cd web/laravelblog/public_html/ && php artisan schedule:run >> /dev/null 2>&1
+" or testing with php artisan schedule:run
 
 
 Enjoy!
